@@ -1,0 +1,32 @@
+MainMenu#%n1)Archivos%n2)Gestion de la galeria%n3)Listados%n4)Salir%n
+ChooseOption#Elija una opcion >> 
+FilesMenu#%na)Importar CSV%nb)Exportar CSV%nc)Exportar HTML%n
+ManagmentMenu#%na)Anadir una figura al inventario%nb)Consultar los datos de una figura%nc)Modificar los datos de una figura%nd)Eliminar una figura del inventario%ns)Salir%n
+ListMenu#%na)Listado por identificador%nb)Listado por ano e identificador%nc)Listado por fabricante y ano%ns)Salir%n
+InvalidOption#La opcion introducida no es valida.%n
+YesOrNo#Esta seguro de que desea salir?
+ImportCSVYesOrNo#Desea importar un archivo CSV?
+ImportData#No se encuentra el fichero de datos. Por favor, importe un archivo CSV.%n
+FileRead#Importacion completada! Se han leido un total de %d registros.%n
+FileWritten#Exportacion completada! Se han escrito un total de %d registros.%n
+FileNotRead#No se pudo leer el archivo.%n
+FileNotWritten#No se pudo escribir el archivo.%n
+AddFigure#%nIntroduzca los datos de la figura:%n
+Id#Introduzca el identificador unico de la figura: 
+Height#Introduzca la altura de la figura (entre 0m y 1.5m): 
+Material#Introduzca el material por el que esta compuesta mayoritariamente la figura: 
+Amount#Introduzca la cantidad de ejemplares: 
+Year#Introduzca el ano de compra de la figura: 
+Photo#Introduzca el nombre de la imagen en formato png: 
+Manufacturer#Introduzca el nombre del fabricante de la figura: 
+CorrectlyAdded#%nFigura anadida correctamente!%n
+NotAdded#%nFigura no anadida. Ya existe otra figura con ese identificador.%n
+IdToSee#%nIntroduzca el id de la figura a visualizar: 
+IdToModify#%nIntroduzca el id de la figura a modificar: 
+FigureDoesNotExist#%nLa figura solicitada no existe.%n
+AttributeToModify#%n1)Altura%n2)Material%n3)Cantidad%n4)Ano de compra%n5)Imagen%n6)Fabricante%n
+ModifyExit#Desea modificar algun atributo mas? 
+IdToDelete#%nIntroduzca el id de la figura a eliminar: 
+DeleteYesOrNo#Esta seguro de que desea eliminarla?
+ChooseOptionToModify#Elija un campo para modificar >> 
+InventoryTitle#%nInventario:%nID         | ALTURA | MATERIAL             | CANTIDAD | ANO   | URL IMAGEN                                                             | FABRICANTE%n
